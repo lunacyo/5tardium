@@ -227,8 +227,8 @@ a{
     float:left;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-right: 10px;
-    margin-left:  30px;
+    padding-right: 10px;
+    padding-left:  30px;
 }
 .tickets_Content img{
     width: 106px;
