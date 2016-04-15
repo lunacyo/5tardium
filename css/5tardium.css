@@ -109,11 +109,9 @@ a{
     z-index: 99;
 }
 .logo_Sns{
-    border: 2px solid lime;
     right: 0;
-    width: 10%;
+    width: 8%;
     margin-top: 1%;
-    margin-right: 0.5%;
     position: absolute;
     z-index: 99;
 }
