@@ -1,0 +1,440 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+    모든 브라우저 기본 CSS형식 리셋!
+*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    width: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+ }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+hr{
+    border-bottom: 0px;
+    border: 1px solid gray;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.bg_Video{
+    position:fixed;
+    min-width: 100%;
+    width: auto;
+    min-height: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    opacity:0.8;
+}
+.bg_Video video{
+    width: 100%;
+    height:100%;
+ 
+}
+.bg_Mask{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: 98;
+    opacity: 0.6;
+    background: #015756;
+    background:-webkit-linear-gradient(left,#0d1150,#015756);
+    background:-o-linear-gradient(left,#0d1150,#015756);
+    background: -moz-linear-gradient(left,#0d1150,#015756);
+    background: linear-gradient(left,#0d1150,#015756);
+}
+.bg_Dot{
+    position: absolute;
+    background-image: url(../img/dot.png);
+    width:100%;
+    height:100%;
+    z-index: 99;
+}
+#page_Header{
+    width: 100%;
+    height: 33%;
+    padding-top: 3%;
+}
+.logo_5tardium{
+    position:relative;
+    z-index: 99;
+    display: block;
+    margin: 0 auto;
+}
+.logo_Bepc{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 1%;
+    z-index: 99;
+}
+.logo_Sns{
+    right: 0;
+    width: 10%;
+    margin-top: 1%;
+    margin-right: 1%;
+    position: absolute;
+    z-index: 99;
+}
+.logo_Sns i{
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+}
+#page_Main{
+    padding-top: 10%;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height:350px;
+}
+.main_Content{
+    position: relative;
+    float: right;
+    left: -50%;
+}
+.main_Content li{
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    left: 50%;
+    width: 130px;
+    height: 130px;   
+    margin: 20px;
+    text-align: center;
+    color: white;
+    background-image: url(../img/circle.png);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.ct_Ticket{
+     padding-top:55px;
+}
+.ct_Lounge{
+    padding-top:45px;
+}
+.ct_Contact{
+     padding-top:55px;
+}
+.main_Content li:hover{
+    opacity: 1;
+}
+#page_Footer{
+    position:relative;
+    width: 100%;
+    height: 50px;
+    z-index: 98;
+    color:white;
+    font-weight: bold;
+}
+#page_Footer h3{
+    margin-left:2%;
+    font-size:15px;
+}
+#page_Footer img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 4%;
+}
+#tickets_Modal{
+    display:none;
+    margin-left: 3%;
+    position:absolute;
+    top:18%;
+    left: 15%;
+    box-sizing: border-box;
+    width: 61%;
+    height:auto;
+    border:2px solid #00FFCC;
+    z-index: 99;
+    background-color:rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+   -webkit-animation-name: zoom;
+    -webkit-animation-duration:0.6s;
+    animation-name:zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+@keyframes zoom{
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+#tickets_Modal h2{
+    width: 93%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid gray;
+}
+.tickets_Content{
+    box-sizing: border-box;
+    width: 100%;
+    height:100%;
+}
+.tickets_Content li{
+    margin: 2%;
+    float: left;
+}
+.tickets_Content img{
+    width: 106px;
+    height: 106px;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:0.5%;
+    cursor: pointer;
+}
+#lounge_Modal{
+    display: none;
+    margin-left: 3%;
+    position:absolute;
+    top:-230px;
+    left: 15%;
+    box-sizing: border-box;
+    width: 61%;
+    height:auto;
+    border:2px solid #00FFCC;
+    z-index: 99;
+    background-color:rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+   -webkit-animation-name: zoom;
+    -webkit-animation-duration:0.6s;
+    animation-name:zoom;
+    animation-duration: 0.6s;
+}
+#lounge_Modal .logo{
+    width: 60%;
+    height: 30%;
+    display: block;
+    margin:0 auto;
+}
+#lounge_Modal h2{
+    color: #006600;
+    width:90%;
+    margin: 0 auto;
+}
+.policy_Wrap{
+    position: relative;
+    border: 2px solid #006600; 
+    width: 90%;
+    height:260px;
+    margin: 0 auto;
+    color: gray;
+}
+.policy_Left{
+    width: 30%;
+    height: auto;
+    font-size: 12px;
+}
+.margin{
+    margin: 18px;
+}
+.margin1{
+    margin-left: 18px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.policy_Right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
+    height: auto;
+    font-size: 12px;
+}
+.policy_Right li{
+    margin: 16px;
+}
+.lounge_Wrap{
+    width: 90%;
+    height: auto;
+    background-color: black;
+    border: 2px solid gray;
+    margin: 10px auto;
+}
+.lounge_Name{
+    border:none;
+    padding-right: 5%;
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.lounge_Phone{
+    border:none;
+    padding-right: 5%;
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.lounge_Comment{
+    border:none;
+    padding-right: 5%;
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+}
+.lounge_Submit{
+    border:none;
+    background-color: black;
+    color:#00FF00;
+    width: 90%;
+    height: 60px;
+    display: block;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.lounge_Button_wrap{
+    width: 90%;
+    height: auto;
+    background-color: black;
+    border: 2px solid #00FF00;
+    margin: 10px auto;
+}
+#contact_Modal{
+    display:none;
+    margin-left: 3%;
+    position:absolute;
+    top:18%;
+    left: 15%;
+    box-sizing: border-box;
+    width: 61%;
+    height:auto;
+    border:2px solid #00FFCC;
+    z-index: 99;
+    background-color:rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+   -webkit-animation-name: zoom;
+    -webkit-animation-duration:0.6s;
+    animation-name:zoom;
+    animation-duration: 0.6s;
+}
+#contact_Modal h2{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 2%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid gray;
+}
+.contact_Wrap{
+    width: 90%;
+    height: auto;
+    background-color: black;
+    border: 2px solid gray;
+    margin: 10px auto;
+}
+.contact_Name{
+    border:none;
+    padding-right: 5%;
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.contact_Email{
+    border:none;
+    padding-right: 5%;
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.contact_Phone{
+    border:none;
+    padding-right: 5%;
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.contact_Comment{
+    border:none;
+    padding-right: 5%;
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+}
+.contact_Submit{
+    border: none;
+    background-color:#050504;
+    color:#00FFCC;
+    width: 10%;
+    height: 60px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+}
