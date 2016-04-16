@@ -74,7 +74,7 @@ a{
 .bg_Mask{
     position:absolute;
     width:100%;
-    height:auto;
+    height:100%
     z-index: 98;
     opacity: 0.6;
     background: #015756;
@@ -87,7 +87,7 @@ a{
     position: absolute;
     background-image: url(../img/dot.png);
     width:100%;
-    height:auto;
+    height:100%
     z-index: 99;
 }
 .bg_Mobile{
@@ -99,7 +99,7 @@ a{
 }
 .bg_Mobile img{
     width: 100%;
-    height:auto;
+    height:100%;
 }
 #page_Header{
     width: 100%;
