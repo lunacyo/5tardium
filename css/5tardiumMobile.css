@@ -133,6 +133,7 @@ a{
     height:350px;
 }
 .main_Content{
+    display: inline-block;
     text-align: center;
 }
 .main_Content li{
