@@ -153,13 +153,13 @@ a{
     cursor: pointer;
 }
 .ct_Ticket{
- padding-right:320px;
+ padding-right:250px;
 }
 .ct_Lounge{
-  padding-right: 320px;
+  padding-right:250px;
 }
 .ct_Contact{
-  padding-right: 320px;
+  padding-right:250px;
 }
 .main_Content li:hover{
     opacity: 1;
