@@ -125,7 +125,7 @@ a{
     position: relative;
     z-index: 99;
     width: 100%;
-    height:350px;
+    height:90%;
 }
 .main_Content{
     position: relative;
@@ -161,25 +161,6 @@ a{
 }
 .main_Content li:hover{
     opacity: 1;
-}
-#page_Footer{
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    z-index: 98;
-    color:white;
-    font-weight: bold;
-}
-#page_Footer h3{
-    margin-left:2%;
-    font-size:15px;
-}
-#page_Footer img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 4%;
 }
 #tickets_Modal{
     display:none;
@@ -443,4 +424,23 @@ a{
     text-align: center;
     float: right;
     cursor: pointer;
+}
+#page_Footer{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    z-index: 98;
+    color:white;
+    font-weight: bold;
+}
+#page_Footer h3{
+    margin-left:2%;
+    font-size:15px;
+}
+#page_Footer img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 4%;
 }
