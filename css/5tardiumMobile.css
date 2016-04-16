@@ -139,8 +139,7 @@ a{
 .main_Content li{
     box-sizing: border-box;
     width: 130px;
-    height: 130px;   
-    margin: 20px;
+    height: 130px;
     color: white;
     background-image: url(../img/circle.png);
     background-repeat: no-repeat;
