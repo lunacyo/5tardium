@@ -106,12 +106,14 @@ a{
     height: auto;
 }
 .logo_Bepc{
+    display: none;
     position: absolute;
     margin-left: 3%;
     margin-top: 1%;
     z-index: 99;
 }
 .logo_Sns{
+    display: none;
     right: 0;
     width: 8%;
     margin-top: 1%;
@@ -131,15 +133,10 @@ a{
     height:350px;
 }
 .main_Content{
-    position: relative;
-    float: right;
-    left: -50%;
+    text-align: center;
 }
 .main_Content li{
-    position: relative;
     box-sizing: border-box;
-    float: left;
-    left: 50%;
     width: 130px;
     height: 130px;   
     margin: 20px;
