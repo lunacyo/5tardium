@@ -141,8 +141,8 @@ a{
     overflow: hidden;
 }
 .main_Content li{
-    left: 200px;
-    width:500px;
+    left: 25%;
+    width:1000px;
     height: 130px;
     color: white;
     background-image: url(../img/circle.png);
