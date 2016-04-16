@@ -57,6 +57,9 @@ a{
     color: black;
     text-decoration: none;
 }
+.bg_Video{
+    display: none;
+}
 .bg_Mobile{
     display: block;
     position:absolute;
