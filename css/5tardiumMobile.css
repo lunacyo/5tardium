@@ -133,7 +133,6 @@ a{
     height:500px;
 }
 .main_Content{
-    display:
     position:relative;
     left: 0;
     width:100%;
@@ -154,13 +153,13 @@ a{
     cursor: pointer;
 }
 .ct_Ticket{
- padding-right:350px;
+ padding-right:320px;
 }
 .ct_Lounge{
-  padding-right: 350px;
+  padding-right: 320px;
 }
 .ct_Contact{
-  padding-right: 350px;
+  padding-right: 320px;
 }
 .main_Content li:hover{
     opacity: 1;
