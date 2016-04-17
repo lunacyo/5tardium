@@ -463,17 +463,17 @@ a{
 }
 #page_Footer .mobile_Sns{
     left: 0;
-    width: 8%;
+    width:50%;
     margin-top: 1%;
     margin-bottom: 1%;
-    position: absolute;
+    position:relative;
     z-index: 99;
 }
 #page_Footer .mobile_Img{
     right: 0;
-    width: 8%;
+    width:20%;
     margin-top: 1%;
     margin-bottom: 1%;
-    position: absolute;
+    position:relative;
     z-index: 99;
 }
