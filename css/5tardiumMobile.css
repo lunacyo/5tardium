@@ -444,7 +444,7 @@ a{
     z-index: 98;
     color:white;
     font-weight: bold;
-    bottom: -50px;
+    bottom: -30px;
 }
 #page_Footer h3{
     clear: both;
@@ -475,7 +475,7 @@ a{
 }
 #page_Footer .mobile_Img{
     float: right;
-    right: 0;
+    right: -20px;
     width:50%;
     margin-top: 1%;
     margin-bottom: 1%;
