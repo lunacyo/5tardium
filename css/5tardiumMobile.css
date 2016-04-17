@@ -167,13 +167,12 @@ a{
 
 #tickets_Modal{
     display:none;
-    margin-left: 3%;
     position:absolute;
     top:30px;
     left:10px;
     box-sizing: border-box;
     width: 300px;
-    height:500px;
+    height:400px;
     border:2px solid #00FFCC;
     z-index: 99;
     background-color:rgb(0,0,0);
@@ -355,13 +354,12 @@ a{
 }
 #contact_Modal{
     display:none;
-    margin-left: 3%;
     position:absolute;
     top:30px;
     left: 10px;
     box-sizing: border-box;
     width: 300px;
-    height:500px;
+    height:400px;
     border:2px solid #00FFCC;
     z-index: 99;
     background-color:rgb(0,0,0);
@@ -437,7 +435,6 @@ a{
     display: block;
     font-size: 15px;
     text-align: center;
-    float: right;
     cursor: pointer;
 }
 #page_Footer{
