@@ -447,6 +447,7 @@ a{
     font-weight: bold;
 }
 #page_Footer h3{
+    padding-top: 8%;
     margin-left:2%;
     font-size:15px;
     text-align: center;
@@ -454,7 +455,8 @@ a{
 #page_Footer .footImg{
   display: none;
 }
-#page_Footer .mobile_Logo{
+#page_Footer .mobile_Bottom{
+    position: absolute;
     display:block;
     width: 100%;
     height: 50px;
@@ -462,16 +464,20 @@ a{
     border-bottom: 2px solid gray;
 }
 #page_Footer .mobile_Sns{
-    left: 0;
+    float: left;
     width:50%;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom: 1%;
     position:relative;
     z-index: 99;
 }
+.mobile_Sns i{
+   color: white;
+    font-size: 24px; 
+}
 #page_Footer .mobile_Img{
-    right: 0;
-    width:20%;
+    float: right;
+    width:50%;
     margin-top: 1%;
     margin-bottom: 1%;
     position:relative;
