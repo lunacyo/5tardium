@@ -255,6 +255,7 @@ a{
     margin: 0 auto;
 }
 .policy_Wrap{
+    display: none;
     position: relative;
     border: 2px solid #006600; 
     width: 90%;
