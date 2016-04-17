@@ -449,6 +449,7 @@ a{
 #page_Footer h3{
     margin-left:2%;
     font-size:15px;
+    text-align: center;
 }
 #page_Footer img{
   display: none;
