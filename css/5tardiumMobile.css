@@ -263,6 +263,17 @@ a{
     margin: 0 auto;
     color: gray;
 }
+.mobile_Policy{
+    display: block;
+    border: 2px solid #006600;
+}
+.mobile_Policy li{
+    color: white;
+    margin-bottom: 10px;
+}
+.mobile_Policy p{
+    color: gray;
+}
 .policy_Left{
     width: 30%;
     height: auto;

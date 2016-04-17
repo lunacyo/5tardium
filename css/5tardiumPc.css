@@ -283,6 +283,9 @@ a{
 .policy_Right li{
     margin: 16px;
 }
+.mobile_Policy{
+    display: none;
+}
 .lounge_Wrap{
     width: 90%;
     height: auto;
