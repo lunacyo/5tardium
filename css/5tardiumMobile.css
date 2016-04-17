@@ -456,7 +456,7 @@ a{
   display: none;
 }
 #page_Footer .mobile_Bottom{
-    position: absolute;
+    position:relative;
     display:block;
     width: 100%;
     height: 50px;
