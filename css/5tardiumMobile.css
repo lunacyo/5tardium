@@ -444,11 +444,12 @@ a{
     z-index: 98;
     color:white;
     font-weight: bold;
-    bottom: -30px;
+    bottom: -20px;
 }
 #page_Footer h3{
     clear: both;
     font-size:15px;
+    margin-top: 10px;
     text-align: center;
 }
 #page_Footer .footImg{
