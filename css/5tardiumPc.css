@@ -169,7 +169,7 @@ a{
     top:18%;
     left:24%;
     box-sizing: border-box;
-    width:65%;
+    width:60%;
     height:auto;
     border:2px solid #00FFCC;
     z-index: 99;
@@ -441,9 +441,12 @@ a{
     margin-left:2%;
     font-size:15px;
 }
-#page_Footer img{
+#page_Footer .footImg{
     position: absolute;
     top: 0;
     right: 0;
     margin-right: 4%;
+}
+#page_Footer .mobile_Logo{
+    display: none;
 }
