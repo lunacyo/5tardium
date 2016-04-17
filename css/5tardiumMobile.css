@@ -229,7 +229,7 @@ a{
     display: none;
     margin-left: 3%;
     position:absolute;
-    left: 100px;
+    right: 100px;
     box-sizing: border-box;
     width:50%;
     height:100%;
