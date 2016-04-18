@@ -136,15 +136,16 @@ a{
 .main_Content{
     border: 2px solid aqua;
     position:relative;
+    z-index: 99;
     width:100%;
     height: 100%;
     text-align:center;
     overflow: hidden;
 }
 .main_Content li{
-    margin-left:35%;
+    margin-left:25%;
     border: 2px solid lime;
-    width:25%;
+    width:50%;
     height: 130px;
     color: white;
     background-image: url(../img/circle.png);
