@@ -129,9 +129,8 @@ a{
     border: 2px solid red;
     padding-top: 10%;
     position: relative;
-    z-index: 99;
     width: 100%;
-    height:500px;
+    height:700px;
 }
 .main_Content{
     border: 2px solid aqua;
@@ -143,27 +142,31 @@ a{
     overflow: hidden;
 }
 .main_Content li{
-    margin-left:25%;
     border: 2px solid lime;
-    width:50%;
-    height: 130px;
+    margin: 0 auto;
+    width:35%;
+    height:20%;
     color: white;
     background-image: url(../img/circle.png);
+    background-size:80%;
     background-repeat: no-repeat;
     opacity: 0.5;
     font-size: 22px;
     font-weight: bold;
     cursor: pointer;
+    text-align: center;
 }
 .ct_Ticket{
- padding-top:50px;
-padding-left: 30px;
+ padding-top:70px;
+ padding-right:40px;
 }
 .ct_Lounge{
-  padding-top: 40px;
+  padding-top: 60px;
+    padding-right:40px;
 }
 .ct_Contact{
-  padding-top: 50px;
+  padding-top: 70px;
+    padding-right:40px;
 }
 .main_Content li:hover{
     opacity: 1;
