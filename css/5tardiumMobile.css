@@ -166,7 +166,6 @@ a{
 }
 
 #tickets_Modal{
-    display:none;
     position:absolute;
     top:30px;
     left:10px;
