@@ -28,7 +28,7 @@ var clo2 = document.getElementsByClassName("close")[2];
 click2.onclick = function(){
     modal2.style.display = "block";
      modal.style.display = "none";
-    modal2.style.display = "none";
+    modal1.style.display = "none";
     
 }
 clo2.onclick = function(){
