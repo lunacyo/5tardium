@@ -170,10 +170,11 @@ a{
 }
 #tickets_Modal{
     display:none;
-    margin-left:-520px;
+    margin-left:-25%;
+    position:absolute;
     left:50%;
     box-sizing: border-box;
-    width:1050px;
+    width:50%;
     height:auto;
     border:2px solid #00FFCC;
     z-index: 99;
