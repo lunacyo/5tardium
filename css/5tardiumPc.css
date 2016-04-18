@@ -136,7 +136,6 @@ a{
     position: relative;
     float: right;
     left: -50%;
-    top: 0;
 }
 .main_Content li{
     position: relative;
@@ -169,7 +168,6 @@ a{
     opacity: 1;
 }
 #tickets_Modal{
-    border: 2px solid aqua;
     display:none;
     margin-left:-520px;
     position:absolute;
@@ -349,10 +347,9 @@ a{
 }
 #contact_Modal{
     display:none;
-    margin-left: 3%;
+    margin-left: -31%;
     position:absolute;
-    top:18%;
-    left: 16%;
+    left: 50%;
     box-sizing: border-box;
     width: 61%;
     height:auto;
