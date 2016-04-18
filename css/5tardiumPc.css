@@ -132,9 +132,11 @@ a{
     height:300px;
 }
 .main_Content{
+    border: 2px solid red;
     position: relative;
     float: right;
     left: -50%;
+    top: 0;
 }
 .main_Content li{
     position: relative;
@@ -168,10 +170,10 @@ a{
 }
 #tickets_Modal{
     display:none;
-    margin-left: 3%;
+    margin-left:-520px;
     position:absolute;
     top:18%;
-    left:19%;
+    left:50%;
     box-sizing: border-box;
     width:1050px;
     height:auto;
