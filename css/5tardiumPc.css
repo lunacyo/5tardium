@@ -171,7 +171,6 @@ a{
 #tickets_Modal{
     display:none;
     margin-left:-520px;
-    position:absolute;
     left:50%;
     box-sizing: border-box;
     width:1050px;
