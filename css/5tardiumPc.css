@@ -228,10 +228,10 @@ a{
 #lounge_Modal{
     overflow: scroll;
     display: none;
-    margin-left: 3%;
+    margin-left: -25%;
     position:absolute;
     top:-130px;
-    left:400px;
+    left:50%;
     box-sizing: border-box;
     width:50%;
     height:100%;
