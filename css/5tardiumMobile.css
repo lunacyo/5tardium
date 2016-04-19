@@ -225,6 +225,12 @@ a{
     top: 0;
     right: 0;
     margin:0.5%;
+    width: 28px;
+    height: 23px;
+    background-image:url(../img/close.png);
+    background-position: center;
+    background-color: #020404;
+    border:0px;
     cursor: pointer;
 }
 #lounge_Modal{
