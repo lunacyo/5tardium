@@ -57,6 +57,16 @@ a{
     color: black;
     text-decoration: none;
 }
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
 .bg_Video{
     display: none;
 }
@@ -314,7 +324,7 @@ a{
     border: 2px solid gray;
     margin: 10px auto;
 }
-.lounge_Name{
+#lounge_Name{
     border:none;
     padding-right: 5%;
     background-color: black;
@@ -324,7 +334,7 @@ a{
     display: block;
     margin: 0 auto;
 }
-.lounge_Phone{
+#lounge_Phone{
     border:none;
     padding-right: 5%;
     background-color: black;
@@ -334,7 +344,7 @@ a{
     display: block;
     margin: 0 auto;
 }
-.lounge_Comment{
+#lounge_Comment{
     border:none;
     padding-right: 5%;
     background-color: black;
@@ -396,7 +406,7 @@ a{
     border: 2px solid gray;
     margin: 10px auto;
 }
-.contact_Name{
+#contact_Name{
     border:none;
     padding-right: 5%;
     background-color: black;
@@ -406,7 +416,7 @@ a{
     display: block;
     margin: 0 auto;
 }
-.contact_Email{
+#contact_Email{
     border:none;
     padding-right: 5%;
     background-color: black;
@@ -416,7 +426,7 @@ a{
     display: block;
     margin: 0 auto;
 }
-.contact_Phone{
+#contact_Phone{
     border:none;
     padding-right: 5%;
     background-color: black;
@@ -426,7 +436,7 @@ a{
     display: block;
     margin: 0 auto;
 }
-.contact_Comment{
+#contact_Comment{
     border:none;
     padding-right: 5%;
     background-color: black;
