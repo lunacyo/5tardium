@@ -182,12 +182,12 @@ a{
 }
 #tickets_Modal{
     display:none;
-    margin-left:-50%;
+    margin-left:-40%;
     position:absolute;
     top:100px;
     left:50%;
     box-sizing: border-box;
-    width:100%;
+    width:80%;
     height:auto;
     border:2px solid #00FFCC;
     z-index: 99;
@@ -249,12 +249,12 @@ a{
 #lounge_Modal{
     overflow: scroll;
     display: none;
-    margin-left:-50%;
+    margin-left:-40%;
     position:relative;
     top:-230px;
     left:50%;
     box-sizing: border-box;
-    width:100%;
+    width:80%;
     height:500px;
     border:2px solid #00FFCC;
     z-index: 99;
@@ -377,12 +377,12 @@ a{
 }
 #contact_Modal{
     display:none;
-    margin-left: -50%;
+    margin-left: -40%;
     position:absolute;
     left: 50%;
     top:100px;
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
     height:auto;
     border:2px solid #00FFCC;
     z-index: 99;
