@@ -150,6 +150,7 @@ a{
     width:520px;
     height: 160px;
     margin: 0 auto;
+    z-index: 99;
 }
 .main_Content li{
     position: relative;
@@ -166,7 +167,6 @@ a{
     font-size: 22px;
     font-weight: bold;
     cursor: pointer;
-    
 }
 .ct_Ticket{
      padding-top:55px;
@@ -465,7 +465,7 @@ a{
     z-index: 98;
     color:white;
     font-weight: bold;
-    bottom: -20px;
+    bottom:0;
 }
 #page_Footer h3{
     clear: both;
@@ -494,12 +494,13 @@ a{
     z-index: 99;
 }
 .mobile_Sns i{
-   color: white;
+    color: white;
     font-size: 24px; 
 }
 #page_Footer .mobile_Img{
     float: right;
     width:50%;
+    right: 0;
     margin-top: 1%;
     margin-bottom: 1%;
     position:relative;
