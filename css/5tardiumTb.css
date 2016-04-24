@@ -463,7 +463,6 @@ a{
     cursor: pointer;
 }
 #page_Footer{
-    border: 2px solid red;
     position: absolute;
     width: 100%;
     height:auto;
@@ -504,7 +503,6 @@ a{
 #page_Footer .mobile_Img{
     text-align: right;
     width:50%;
-    border: 2px solid lime;
     margin-top: 2%;
     margin-bottom: 1%;
     position:absolute;
