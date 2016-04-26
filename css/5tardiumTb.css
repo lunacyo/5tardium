@@ -301,25 +301,6 @@ a{
     height: auto;
     font-size: 12px;
 }
-.margin{
-    margin: 18px;
-}
-.margin1{
-    margin-left: 18px;
-    margin-top: 25px;
-    margin-bottom: 39px;
-}
-.policy_Right{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 65%;
-    height: auto;
-    font-size: 12px;
-}
-.policy_Right li{
-    margin: 16px;
-}
 .lounge_Wrap{
     width: 90%;
     height: auto;
